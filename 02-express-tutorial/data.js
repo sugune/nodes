@@ -39,4 +39,16 @@ const people = [
   { id: 4, name: 'anna' },
   { id: 5, name: 'emma' },
 ]
-module.exports = { products, people }
+
+const waifu = [
+  {birthday: 31, name: "sumireko"},
+  {birthday: 8, name: "nemi"},
+  {birthday: 20, name: "gura"},
+  {birthday: 9, name: "suon"},
+  {birthday: 11, name: "kinna"},
+  {birthday: 10, name: "sora"},
+  {birthday: 15, name: "who tao"}
+  
+]
+
+module.exports = { products, people, waifu}
