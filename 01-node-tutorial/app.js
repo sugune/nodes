@@ -88,13 +88,48 @@
 // const human = new Person('peter', 100);
 // human.logs('myka')
 
-const string = 'filea.mp3 files.mp3 filed.mp3 doc.docx ppt.ppt';
-const regex = /(\w+)\.mp3/g;
-let match = regex.exec(string);
+// const string = 'filea.mp3 files.mp3 filed.mp3 doc.docx ppt.ppt';
+// const regex = /(\w+)\.mp3/g;
+// let match = regex.exec(string);
 
-while (match) {
-  console.log(match[1])
-  match = regex.exec(string)
-}
+// while (match) {
+//   console.log(match[1])
+//   match = regex.exec(string)
+// }
 
 // console.log(regex.exec(string))
+/*const queryObject = {}
+
+const numericFilters = 'cute=myka,myka>22';
+
+if (numericFilters) {
+  const operatorMap = {
+    '>': '$gt',
+    '>=': '$gte',
+    '<': '$lt',
+    '<=': '$lte',
+    '=': '$eq'
+  }
+  const regex = /\b(<|>|<=|>=|=)\b/g;
+  const options = ['cute', 'myka'];
+  let filters = numericFilters.replace(regex, (match) => `-${operatorMap[match]}-`);
+  
+  filters = filters.split(',').forEach(item => {
+    const [fields, operator, value] = item.split('-')
+    if (options.includes(fields)) {
+      queryObject[fields] = {[operator]: value}
+    }
+  })
+}
+
+console.log(queryObject)*/
+
+// console.log(new Date().getDate())
+
+const obj = {
+  a: 1,
+  b: 2,
+  c: 3
+}
+
+console.log(obj)
